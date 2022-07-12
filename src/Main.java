@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+//      Первая задача
 //        цельночисленные
         byte c= 2;
         short b=3;
@@ -19,6 +20,12 @@ public class Main {
         boolean age2=10<=5;
         System.out.println(age);
         System.out.println(age2);
+
+//        Вторая задача
+        float weightOne=78.2f;
+        float weightTwo=82.7f;
+        float weightBoxers=weightOne+weightTwo;
+        System.out.println("Общий вес боксеров"+weightBoxers);
 
 
 
