@@ -73,7 +73,39 @@ public class Main {
         System.out.println("В среднем похудеет на"+loseWeightDayOneTwo+"кг");
 
 //        Пятая задача
+        int salaryMashaMonth=67760;
+        int salaryDenisMonth=83690;
+        int salaryKristinaMonth=76230;
+//       Почему double а не float?
+        double salaryMashaMonthUp=salaryMashaMonth*0.1+salaryMashaMonth;
+        System.out.println("Месячна зарплата Маши после повышения"+salaryMashaMonthUp +"рублей в месяц");
+        double salaryDenisMonthUp=salaryDenisMonth*0.1+salaryDenisMonth;
+        System.out.println("Месячная зарплата Дениса после повышения"+salaryDenisMonthUp+"рублей в месяц");
+        double salaryKristinaMonthUp=salaryKristinaMonth*0.1+salaryKristinaMonth;
+        System.out.println("Месячная зарплата кристины после повышения"+salaryKristinaMonthUp+"рублей в месяц");
 
+        byte salaryYearMonth=12;
+
+        int salaryMashaYear=salaryMashaMonth*salaryYearMonth;
+        System.out.println("Зарплата Маши без повышения"+salaryMashaYear+"в год");
+        int salaryDenisYear=salaryDenisMonth*salaryYearMonth;
+        System.out.println("Зарплата Дениса без повышения"+salaryDenisYear+"в год");
+        int salaryKristinaYear=salaryKristinaMonth*salaryYearMonth;
+        System.out.println("Зарплата Кристины без повышения"+salaryKristinaYear+"рублей в год");
+
+        double salaryDenisYearUp=salaryDenisYear*0.1+salaryDenisYear;
+        System.out.println("Зарплата Дениса после повышения"+salaryDenisYearUp+"рублей в год");
+        double salaryMashaYearUp=salaryMashaYear*0.1+salaryMashaYear;
+        System.out.println("Зарплата Маши после повышения"+salaryMashaYearUp+"рублей в год");
+        double salaryKristinaYearUp=salaryKristinaYear*0.1+salaryKristinaYear;
+        System.out.println("Зарплата Маши после повышения"+salaryKristinaYearUp+"рублей в год");
+
+        double salaryMashaDifferenceYear=salaryMashaYearUp-salaryMashaYear;
+        System.out.println("Годовой доход Маши вырос на"+salaryMashaDifferenceYear+"рублей");
+        double salaryDenisDifferenceYear=salaryDenisYearUp-salaryDenisYear;
+        System.out.println("Годовой доход Дениса вырос на"+salaryDenisDifferenceYear+"рублей");
+        double salaryKristinaDifferenceYear=salaryKristinaYearUp-salaryKristinaYear;
+        System.out.println("Годовой доход Критины вырос на"+salaryKristinaDifferenceYear+"рублей");
 
 
     }
