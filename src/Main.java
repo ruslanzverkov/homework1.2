@@ -18,7 +18,9 @@ public class Main {
 //        логические переменные
         int age1=7;
         boolean isAdult=age1>=5;
-        boolean noAdult=age1<=5;
+        if (isAdult){
+            System.out.println("Возраст больше 5");
+        }
 
 
 //        Вторая задача
@@ -52,11 +54,26 @@ public class Main {
         float breakfastGram=weightBanana+milkWeight200+weightBriquette+weightBollocks;
         System.out.println("завтрак в граммах"+"="+breakfastGram+"грамм");
 
-        int kilogram=1000;
-        float breakfastKilogram=breakfastGram/kilogram;
+        int kilogramGram=1000;
+        float breakfastKilogram=breakfastGram/kilogramGram;
         System.out.println("завтрак в килограммах"+"="+breakfastKilogram+"кг");
 
 //        Четвертая задача
+        float loseWeightKilogram=7;
+        float KilogramGram=1000;
+        float loseWeightOneGram=250;
+        float loseWeightTwoGram=500;
+        float loseWeightOneKilogram=loseWeightOneGram/KilogramGram;
+        float loseWeightTwoKilogram=loseWeightTwoGram/KilogramGram;
+        float loseWeightDayOne=loseWeightKilogram/loseWeightOneKilogram;
+        System.out.println("При потере 250 похудеет на 7 кг за"+loseWeightDayOne+"дней");
+        float loseWeightDayTwo=loseWeightKilogram/loseWeightTwoKilogram;
+        System.out.println("При потере 500 похудеет на 7 кг за"+loseWeightDayTwo+"дней");
+        float loseWeightDayOneTwo=(loseWeightDayOne+loseWeightDayTwo)/2;
+        System.out.println("В среднем похудеет на"+loseWeightDayOneTwo+"кг");
+
+//        Пятая задача
+
 
 
     }
